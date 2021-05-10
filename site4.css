@@ -143,17 +143,14 @@ main{
     margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
     grid-gap: 1rem;
     padding: 5rem 0;
 }
 main article img{
-    width: 30rem;
+    width: 25rem;
     height: 35rem;
     border-radius: 1rem;
-}
-.img1{
-    grid-column: 1/-1;
 }
 .copyright2{
     margin:0 40%;
